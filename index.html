@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Hero with tailwindcss</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        .work-sans{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+        </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="work-sans">
+    <header class="container mx-auto" >
+        <div class="relative w-[1056px] md:w-full mx-auto container">
+        
+            <div class="h-[725px] bg-[url('assets/shape.png')] bg-no-repeat bg-cover w-full" ></div> 
+          
+          <div class="absolute inset-0 bg-gradient-to-t from-black opacity-70"></div>
+          
+          <div class="absolute  flex flex-col text-center justify-center items-center inset-0 "> 
+            <p class="text-[#FFFFFFCC] text-xl mb-2">Savor the Flavors</p>
+                <h1 class="text-5xl w-[60%] place-self-center text-white font-bold">Experience Culinary Excellence <span class="block mt-3"> Food Experience </span></h1>
+                
+                <p class="font-medium  text-center mt-5  w-[60%] place-self-center text-[#dcd7d7cc]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
+                    <button class="text-white mt-7 px-10 py-5 rounded-lg font-bold bg-[#52C303CC]">Shop The Hotest Food</button>
+        </div>
+        
+        </div>
+    </header>
+
+    
+    <section class="about-us w-[1056px] md:w-full my-10">
+        <div class="flex">
+            <div class="h-[537px] w-[50%] bg-[url('assets/foods.png')] bg-no-repeat bg-center bg-cover"></div>
+
+            <div class=" flex flex-col justify-center items-center w-[50%]">
+                
+            <h1 class="text-[36px] font-bold text-black w-[80%] text-center">We always make sure to provide you with good food</h1>
+            <p class="text-lg my-4 opacity-60 text-black">Don't miss a thing! Subscribe to our newsletter</p>
+                <p class="text-xl my-3 text-black font-semibold opacity-70 border-2 py-4 w-[100%] text-center">Follow Us On</p>
+
+                <div class="icon my-3 space-x-3">
+                    <a href="#">
+                        <i class="fab fa-facebook text-[#3b5998] text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram text-[#e4405f] text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter text-[#1da1f2] text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest text-[#bd081c] text-3xl"></i>                
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card pt-36 w-[1056px] md:w-full border pb-28 mb-3">
+        <div class="card-contain space-y-5">
+            <div class="bg-[url('assets/pizza.png')] h-[226px] bg-no-repeat place-self-center bg-center bg-cover w-[339px] "></div>
+            <div class="title-disc-btn text-center space-y-5">
+                <br>
+                <span class="font-semibold text-xl bg-[#52C30326] rounded-lg py-3 px-10">Pizza Burg</span>
+                <h1 class="font-semibold text-3xl">Up To 50% Off</h1>
+                <p class="opacity-70 text-black font-medium w-[25%] place-self-center">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+
+            </div>
+        </div>
+        
+        <div class="text-center mt-16">
+            <button class="text-white bg-[#52C303] rounded-md px-10 py-3">Watch All Sells</button>
+        </div>
+    </section>
+
+
+    <article class="card-box w-[1056px] md:w-full my-12">
+        <div class="space-y-4">
+        <p class="opacity-60 text-center text-black text-lg font-medium">Favorite Brands</p>
+        <h2 class="font-bold w-[35%] place-self-center text-[36px]  text-center">Your Favorite Brands Food Are Now On Sale
+        </h2>
+    </div>
+</article>
+
+
+
+    <section class="mb-3 w-[1056px] md:w-full">  
+        <div class="lg:grid flex flex-wrap gap-4 grid-cols-3 mx-auto lg:w-[1056px]">
+
+                       <!-- card-box 1 start -->
+
+      <div class="card-contain space-y-14">
+        <div class="bg-[url('assets/pizza.png')] h-[227px] bg-no-repeat place-self-center bg-center bg-cover w-full rounded-2xl "></div>
+        <div class="title-disc-btn text-center space-y-6">
+            <span class="font-semibold text-xl bg-[#52C30326] rounded-lg py-3 px-10">Pizza Burg</span>
+            <h1 class="font-semibold text-3xl">Up To 50% Off</h1>
+            <p class="opacity-70 text-black font-medium place-self-center text-sm ">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+
+        </div>
+    </div>
+
+                            <!-- card-box end  -->
+
+                            <!-- card-box2  -->
+
+    <div class="card-contain space-y-14">
+        <div class="bg-[url('assets/biriyani.png')] h-[226px] bg-no-repeat place-self-center bg-center bg-cover  w-full rounded-2xl"></div>
+        <div class="title-disc-btn text-center space-y-6">
+            <span class="font-semibold text-xl bg-[#52C30326] rounded-lg py-3 px-10">Kacchi Bhai</span>
+            <h1 class="font-semibold text-3xl">Up To 50% Off</h1>
+            <p class="opacity-70 text-black font-medium  place-self-center text-sm">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+
+        </div>
+    </div>
+                        <!-- card-box2 end  -->
+
+                        <!-- card-box3  -->
+
+    <div class="card-contain space-y-14">
+        <div class="bg-[url('assets/burger.png')] h-[226px] bg-no-repeat place-self-center bg-center bg-cover  w-full rounded-2xl"></div>
+        <div class="title-disc-btn text-center space-y-6">
+            <span class="font-semibold text-xl bg-[#52C30326] rounded-lg py-3 px-10">Burger King</span>
+            <h1 class="font-semibold text-3xl">Up To 50% Off</h1>
+            <p class="opacity-70 text-black font-medium place-self-center text-sm ">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+
+        </div>
+        
+    </div>
+                            <!-- card-box3 end -->
+
+    </div>
+    <div class="text-center mt-20">
+        <button class="text-white bg-[#52C303] rounded-md px-10 py-3">Watch All Sells</button>
+    </div>
+    </section>
+
+
+    <footer class="w-[1056px] md:w-full">
+        <div class="relative">
+        <div class="bg-[url('assets/social-bg.png')] h-[537px] w-[100%] bg-no-repeat bg-cover bg-center"></div>
+        <div class="absolute inset-0 bg-white opacity-85"></div>
+
+
+
+
+        <div class="absolute inset-0 flex flex-col justify-center items-center">
+                
+            <h1 class="text-[36px] font-bold text-black xl:w-[40%] text-center">We always make sure to provide you with good food</h1>
+            <p class="text-lg my-4 opacity-60 text-black">Don't miss a thing! Subscribe to our newsletter</p>
+                <p class="text-xl my-3 text-black font-semibold opacity-70 border-x-0 border-2 py-4 w-[80%] text-center">Follow Us On</p>
+
+                <div class="icon my-3 space-x-3">
+                    <a href="#">
+                        <i class="fab fa-facebook text-[#3b5998] text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram text-[#e4405f] text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter text-[#1da1f2] text-3xl"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest text-[#bd081c] text-3xl"></i>                
+                    </a>
+                </div>
+            </div>
+    </div>
+    </footer>
+</body>
+</html>
